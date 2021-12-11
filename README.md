@@ -24,11 +24,11 @@ The macOS application resides in this repository (i.e., YouML) intends to provid
 
 | Task  | The number of algorithms  | Extra Information |
 | :------------ |:---------------:| -----:|
-| Data Cleaning | `3` | N/A |
-| Feature Selection | `3` | N/A |
-| Data Preprocessing | `35` | unlimited SQL queries |
-| Data Splitting | `4` | unlimited SQL queries |
-| Machine Learning | `50` | `23` for classification <br /> `27` for regression |
+| Data Cleaning | 3 | N/A |
+| Feature Selection | 3 | N/A |
+| Data Preprocessing | 35 | unlimited SQL queries |
+| Data Splitting | 4 | unlimited SQL queries |
+| Machine Learning | 50 | 23 for classification <br /> 27 for regression |
 
 ## PERFORMANCE
 Mainstream data science libraries are employed by YouML to ensure high-efficient manipulations, they are:
@@ -39,7 +39,7 @@ Mainstream data science libraries are employed by YouML to ensure high-efficient
 - Machine Learning Models: [Scikit-learn](https://scikit-learn.org), [Intel Extension for Scikit-learn](https://intel.github.io/scikit-learn-intelex),
 
 ## TARGET GROUP
-YouML is designed for entry-to-mid level users (prior knowledge of statistics is desirable), sophisticated users could purchase cloud-based machine learning products from tech giants (e.g., Microsoft, Google, Amazon) if they need such an automation toolkit.
+YouML is designed for `entry-to-mid` level users (prior knowledge of statistics is desirable), sophisticated users could purchase cloud-based machine learning products from tech giants (e.g., Microsoft, Google, Amazon) if they need such an automation toolkit.
 
 + Entry-level
     * data science learners (e.g., students)
@@ -59,11 +59,12 @@ A preliminary technical solution to accomplish the aforementioned ultimate goal 
 ## CONTACT
 As a personal project, YouML has `never` been tested publicly, so I’m eager to hear about your experiences. Bug reports, feature requests, questions and suggestions are very welcomed.
 
-Author: Chongya Song<br />
+Author: `Chongya Song`<br />
 Email: [schongy523@gmail.com](schongy523@gmail.com)<br />
 Profile: [https://www.linkedin.com/in/chongya-song/](https://www.linkedin.com/in/chongya-song/)
 
 ----
+
 ## INSTALLATION
 YouML adopts the same installation approach as common Python packages (i.e., run a setup.py script), so experienced users may skip this section and directly install YouML in their preferred manners.
 
@@ -109,6 +110,7 @@ This command installs YouML and the associated dependencies on your machine.
 This command creates a copy of YouML executable in folder /Applications. Now, you can drag & drop it anywhere (e.g., dock) and open it by clicking.
 
 ----
+
 ## USAGE
 ### 1. Auto-save
 YouML is able to track and save your progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
