@@ -24,11 +24,11 @@ The macOS application resides in this repository (i.e., YouML) intends to provid
 
 | Task  | The number of algorithms  | Extra Information |
 | :------------ |:---------------:| -----:|
-| Data Cleaning | 3 | N/A |
-| Feature Selection | 3 | N/A |
-| Data Preprocessing | 35 | unlimited SQL queries |
-| Data Splitting | 4 | unlimited SQL queries |
-| Machine Learning | 50 | 23 for classification <br /> 27 for regression |
+| Data Cleaning | `3` | N/A |
+| Feature Selection | `3` | N/A |
+| Data Preprocessing | `35` | unlimited SQL queries |
+| Data Splitting | `4` | unlimited SQL queries |
+| Machine Learning | `50` | `23` for classification <br /> `27` for regression |
 
 ## PERFORMANCE
 Mainstream data science libraries are employed by YouML to ensure high-efficient manipulations, they are:
@@ -77,7 +77,7 @@ Although it is easier to install dependencies using pip3, I still recommend `beg
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
 
 ### Instruction (conda)
-1.	Installing Anaconda or Miniconda (recommended) by following the instruction below:<br />
+1. Installing Anaconda or Miniconda (recommended) by following the instruction below:<br />
 (beginners could download and use any installer to simplify the installation)<br />
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 
