@@ -1,4 +1,4 @@
-![](https://github.com/ChongyaSong/YouML/raw/main/Logo icon.png)
+![](https://github.com/ChongyaSong/YouML/raw/main/Logo.png)
 
 **Table of Contents**
 
@@ -12,7 +12,7 @@
   * [Instruction (pip)](#instruction--pip-)
   * [Optional Instruction (highly recommended)](#optional-instruction--highly-recommended-)
 - [USAGE](#usage)
-- [1. Auto-save](#1-auto-save)
+  * [1. Auto-save](#1-auto-save)
   * [2. Terminating redundant plotting and useless data loading](#2-terminating-redundant-plotting-and-useless-data-loading)
   * [3. Adaptive plotting algorithm](#3-adaptive-plotting-algorithm)
 
