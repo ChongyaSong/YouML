@@ -10,7 +10,7 @@
 - [INSTALLATION](#installation)
   * [Instruction (conda)](#instruction--conda-)
   * [Instruction (pip)](#instruction--pip-)
-  * [Instruction (optional but `highly recommended`)](#instruction--optional-but--highly-recommended--)
+  * [Instruction (optional but highly recommended)](#instruction--optional-but--highly-recommended--)
 - [USAGE](#usage)
   * [1. Auto-save](#1-auto-save)
   * [2. Terminating redundant plotting and useless data loading](#2-terminating-redundant-plotting-and-useless-data-loading)
