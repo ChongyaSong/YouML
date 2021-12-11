@@ -10,12 +10,11 @@
 - [INSTALLATION](#installation)
   * [Instruction (conda)](#instruction--conda-)
   * [Instruction (pip)](#instruction--pip-)
-  * [Optional Instruction (highly recommended)](#optional-instruction--highly-recommended-)
+  * [Instruction (optional but `highly recommended`)](#instruction--optional-but--highly-recommended--)
 - [USAGE](#usage)
   * [1. Auto-save](#1-auto-save)
   * [2. Terminating redundant plotting and useless data loading](#2-terminating-redundant-plotting-and-useless-data-loading)
   * [3. Adaptive plotting algorithm](#3-adaptive-plotting-algorithm)
-
 
 ## INTRODUCTION
 I’m `Chongya Song`, a Ph.D. interested in data science (esp., machine learning). 
