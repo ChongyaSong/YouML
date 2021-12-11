@@ -2,7 +2,19 @@
 
 **Table of Contents**
 
-[TOC]
+- [INTRODUCTION](#introduction)
+- [PERFORMANCE](#performance)
+- [TARGET GROUP](#target-group)
+- [PLAN](#plan)
+- [CONTACT](#contact)
+- [INSTALLATION](#installation)
+  * [Instruction (conda)](#instruction--conda-)
+  * [Instruction (pip)](#instruction--pip-)
+  * [Optional Instruction (highly recommended)](#optional-instruction--highly-recommended-)
+- [USAGE](#usage)
+  * [1. Auto-save](#1-auto-save)
+  * [2. Terminating redundant plotting and useless data loading](#2-terminating-redundant-plotting-and-useless-data-loading)
+  * [3. Adaptive plotting algorithm](#3-adaptive-plotting-algorithm)
 
 # INTRODUCTION
 I’m Chongya Song, a Ph.D. interested in data science (esp., machine learning). 
@@ -19,7 +31,7 @@ The macOS application resides in this repository (i.e., YouML) intends to provid
 
 # PERFORMANCE
 Mainstream data science libraries are employed by YouML to ensure high-efficient manipulations, they are:
-- Data Import: [Pandas](https://pandas.pydata.org),  [SQLite](https://www.sqlite.org)
+- Data Import: [Pandas](https://pandas.pydata.org), [SQLite](https://www.sqlite.org)
 - Data Visualization: [Matplotlib](https://matplotlib.org)
 - Feature Selection: [Scikit-learn](https://scikit-learn.org)
 - Feature Engineering: [Scikit-learn](https://scikit-learn.org), [SQLite](https://www.sqlite.org), [Scipy](https://scipy.org), [blist](https://pypi.org/project/blist)
@@ -46,9 +58,9 @@ A preliminary technical solution to accomplish the aforementioned ultimate goal 
 # CONTACT
 As a personal project, YouML has never been tested publicly, so I’m eager to hear about your experiences. Bug reports, feature requests, questions and suggestions are very welcomed.
 
-Author: Chongya Song
-Email: schongy523@gmail.com
-Profile: https://www.linkedin.com/in/chongya-song/
+Author: Chongya Song<br />
+Email: [schongy523@gmail.com](schongy523@gmail.com)<br />
+Profile: [https://www.linkedin.com/in/chongya-song/](https://www.linkedin.com/in/chongya-song/)
 
 ----
 # INSTALLATION
@@ -64,35 +76,35 @@ Although it is easier to install dependencies using pip3, I still recommend begi
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
 
 ## Instruction (conda)
-1.	Installing Anaconda or Miniconda (recommended) by following the instruction below:
-(beginners could download and use any installer to simplify the installation)
+1.	Installing Anaconda or Miniconda (recommended) by following the instruction below:<br />
+(beginners could download and use any installer to simplify the installation)<br />
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 
 2.	Opening a command prompt/terminal and navigating to the uncompressed folder YouML.
 
-3.	Executing command: `conda config --append channels conda-forge`
+3. `conda config --append channels conda-forge`<br />
 This command enables your conda to download dependencies from conda-forge repository because a few dependencies and/or specific versions are not available in the default repository.
 
-4.	Executing command: `conda create --name YouML --file Dependency.txt --yes`
+4. `conda create --name YouML --file Dependency.txt --yes`<br />
 This command creates a new conda virtual environment called “YouML” (case-insensitive) in which all dependencies are installed.
 
-5.	Executing command: `conda activate YouML`
+5. `conda activate YouML`<br />
 This command brings you into the conda virtual environment YouML.
 
-6.	Executing command: `python3 setup_conda.py install`
+6. `python3 setup_conda.py install`<br />
 This command installs YouML into the conda virtual environment, which can be launched by command: “YouML” (case-insensitive). Reminder: the prerequisite of launching YouML in this manner is to enter the conda virtual environment YouML (i.e., step no.5).
 
 ## Instruction (pip)
-1.	Installing a Python3 interpreter with a version of 3.7.11 or later (pip is included by default).
+1. Installing a Python3 interpreter with a version of 3.7.11 or later (pip is included by default).<br />
 https://www.python.org/downloads/
 
-2.	Opening a command prompt/terminal and navigating to the uncompressed folder YouML.
+2. Opening a command prompt/terminal and navigating to the uncompressed folder YouML.
 
-3.	Executing command: `python3 setup_pip.py install`
+3. `python3 setup_pip.py install`<br />
 This command installs YouML and the associated dependencies on your machine.
 
 ## Optional Instruction (highly recommended)
-Executing command: `which YouML | xargs -I {} cp {} /Applications`
+`which YouML | xargs -I {} cp {} /Applications`<br />
 This command creates a copy of YouML executable in folder /Applications. Now, you can drag & drop it anywhere (e.g., dock) and open it by clicking.
 
 ----
