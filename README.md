@@ -18,9 +18,9 @@
 
 
 ## INTRODUCTION
-I’m Chongya Song, a Ph.D. interested in data science (esp., machine learning). 
+I’m `Chongya Song`, a Ph.D. interested in data science (esp., machine learning). 
 
-The macOS application resides in this repository (i.e., YouML) intends to provide the community a free and no-code toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a platform where users can obtain solutions to address tough problems in their machine learning tasks. Accordingly, YouML stands for “YOUr (free) Machine Learning (platform)”
+The macOS application resides in this repository (i.e., YouML) intends to provide the community a `free` and `no-code` toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a `platform` where users can obtain `solutions` to address tough problems in their machine learning tasks. Accordingly, YouML stands for “`YOU`r (free) `M`achine `L`earning (platform)”
 
 | Task  | The number of algorithms  | Extra Information |
 | :------------ |:---------------:| -----:|
@@ -50,14 +50,14 @@ YouML is designed for entry-to-mid level users (prior knowledge of statistics is
 	* small businesses that eager to gain insights from their data 
 
 ## PLAN
-A preliminary technical solution to accomplish the aforementioned ultimate goal has been determined, which also includes Windows and Linux versions. I will make every effort and try to look for others to ensure on-schedule completion. What I pursue is to create an application that is/with (a):
-- Toolkit & Solution hub
+A preliminary technical solution to accomplish the aforementioned ultimate goal has been determined, which also includes `Windows` and `Linux` versions. I will make every effort and try to look for others to ensure on-schedule completion. What I pursue is to create an application that is/with (a):
+- Toolkit & `Solution hub`
 - Script-level flexibility
 - No-code & Low learning curve
 - Free
 
 ## CONTACT
-As a personal project, YouML has never been tested publicly, so I’m eager to hear about your experiences. Bug reports, feature requests, questions and suggestions are very welcomed.
+As a personal project, YouML has `never` been tested publicly, so I’m eager to hear about your experiences. Bug reports, feature requests, questions and suggestions are very welcomed.
 
 Author: Chongya Song<br />
 Email: [schongy523@gmail.com](schongy523@gmail.com)<br />
@@ -71,7 +71,7 @@ Downloading and uncompressing the file named “YouML” in the repository. YouM
 1.	Conda (recommended)
 2.	Pip3
 
-Although it is easier to install dependencies using pip3, I still recommend beginners to install everything through conda due to the following reasons:
+Although it is easier to install dependencies using pip3, I still recommend `beginners` to install everything through conda due to the following reasons:
 1.	PyPI (i.e., Python official package repository) is currently inaccessible via pip3 due to security threats. Consequently, you have to find alternative tools or search & install dependencies manually if there is something wrong with dependencies (e.g., version conflict).
 2.	Pip3 installs dependencies in a serial and recursive way, so no effort is made to ensure the compatibilities among dependencies are fulfilled simultaneously.
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
@@ -104,7 +104,7 @@ https://www.python.org/downloads/
 3. `python3 setup_pip.py install`<br />
 This command installs YouML and the associated dependencies on your machine.
 
-### Optional Instruction (highly recommended)
+### Optional Instruction (`highly recommended`)
 `which YouML | xargs -I {} cp {} /Applications`<br />
 This command creates a copy of YouML executable in folder /Applications. Now, you can drag & drop it anywhere (e.g., dock) and open it by clicking.
 
@@ -119,7 +119,7 @@ The employed plotting library Matplotlib is not designed for real-time display, 
 Furthermore, samples are also loaded into the table after each preprocessing manipulation. However, users would refer to summary and statistical information instead of specific samples when preprocessing big data in practice. Consequently, YouML allows users to manually turn off the data loading and the figure plotting features.
 
 ### 3. Adaptive plotting algorithm
-You may find some of the small figures are different from the corresponding large ones. This is not caused by a bug, but result from a built-in adaptive plotting algorithm. In short, the algorithm is able to mine data pattern from various perspectives by adjusting 6 decoupled parameters (will be available in YouML). As a result, users may discover more valuable patterns, generate more informative data and build more accurate models.
+You may find some of the small figures are different from the corresponding large ones. This is not caused by a bug, but result from a built-in `adaptive plotting algorithm`. In short, the algorithm is able to mine data pattern from various perspectives by adjusting 6 decoupled parameters (will be available in YouML). As a result, users may discover more valuable patterns, generate more informative data and build more accurate models.
 
 In addition, if the number of unique target values doesn’t exceed 20 (configurable in future versions), the large figures are colorful and each color represents one value, otherwise, the large figures are plain. This is due to a fact that users may not gain useful information from complicated figures. 
 
