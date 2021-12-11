@@ -105,7 +105,7 @@ https://www.python.org/downloads/
 3. `python3 setup_pip.py install`<br />
 This command installs YouML and the associated dependencies on your machine.
 
-### Optional Instruction (`highly recommended`)
+### Instruction (optional but `highly recommended`)
 `which YouML | xargs -I {} cp {} /Applications`<br />
 This command creates a copy of YouML executable in folder /Applications. Now, you can drag & drop it anywhere (e.g., dock) and open it by clicking.
 
