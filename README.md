@@ -1,8 +1,6 @@
-![](https://github.com/ChongyaSong/YouML/raw/main/Logo.png)
+![](https://github.com/ChongyaSong/YouML/raw/main/Logo icon.png)
 
 **Table of Contents**
-
-[TOCM]
 
 [TOC]
 
