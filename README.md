@@ -93,7 +93,7 @@ This command creates a new conda virtual environment called “YouML” (case-in
 This command brings you into the conda virtual environment YouML.
 
 6. `python3 setup_conda.py install`<br />
-This command installs YouML into the conda virtual environment, which can be launched by command: “YouML” (case-insensitive). Reminder: the prerequisite of launching YouML in this manner is to enter the conda virtual environment YouML (i.e., step no.5).
+This command installs YouML into the conda virtual environment, which can be launched by command: “YouML” (case-insensitive). Reminder: the prerequisite of launching YouML in this manner is to enter the conda virtual environment YouML (i.e., step No.5).
 
 ### Instruction (pip)
 1. Installing a Python3 interpreter with a version of 3.7.11 or later (pip is included by default).<br />
@@ -115,7 +115,7 @@ This command creates a copy of YouML executable in folder /Applications. Now, yo
 YouML is able to track and save your progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
 
 ### 2. Terminating redundant plotting and useless data loading
-The employed plotting library Matplotlib is not designed for real-time display, but for generating publication-quality figures. By default, a small figure associated with each feature is produced and filled into a table at the bottom after each preprocessing manipulation. As a result, YouML may take more than 10 seconds to draw all figures if the numbers of samples and features exceed 50,000 and 50, simultaneously. It is the fact that the small figures are not that informative due to the limitation of the size. Therefore, YouML also visualizes each feature in separate 6X-larger widgets and doesn’t generate these redundant (i.e., small) figures when the product of #samples and #features is greater than 2.5e6 (i.e., 50,000 times 50). The 6X-larger figures are publication-quality (i.e., ppi = 300) and are generated within a few seconds even if the number of samples exceeds 1e5.
+The employed plotting library Matplotlib is not designed for real-time display, but for generating publication-quality figures. By default, a small figure associated with each feature is produced and filled into a table at the bottom after each preprocessing manipulation. As a result, YouML may take more than 10 seconds to draw all `colorful` figures (refer to the second paragraph of USAGE No.3) if the numbers of samples and features exceed 50,000 and 50, simultaneously. It is the fact that the small figures are not that informative due to the limitation of the size. Therefore, YouML also visualizes each feature in separate 6X-larger widgets and doesn’t generate these redundant (i.e., small) figures when the product of #samples and #features is greater than 2.5e6 (i.e., 50,000 times 50). The 6X-larger figures are publication-quality (i.e., ppi = 300) and are generated within a few seconds even if the number of samples exceeds 1e5.
 
 Furthermore, samples are also loaded into the table after each preprocessing manipulation. However, users would refer to summary and statistical information instead of specific samples when preprocessing big data in practice. Consequently, YouML allows users to manually turn off the data loading and the figure plotting features.
 
