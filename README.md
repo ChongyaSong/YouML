@@ -35,7 +35,7 @@ Mainstream data science libraries are employed by YouML to ensure high-efficient
 - Feature Engineering: [Scikit-learn](https://scikit-learn.org), [SQLite](https://www.sqlite.org), [Scipy](https://scipy.org), [blist](https://pypi.org/project/blist)
 - Machine Learning Models: [Scikit-learn](https://scikit-learn.org), [Intel Extension for Scikit-learn](https://intel.github.io/scikit-learn-intelex)
 
-![](https://github.com/ChongyaSong/YouML/blob/main/Logos%20of%20Libs.jpg)
+![](https://github.com/ChongyaSong/YouML/blob/main/Logos%20of%20Libs.png)
 
 ## TARGET GROUP
 YouML is designed for `entry-to-mid` level users (prior knowledge of statistics is desirable), sophisticated users could purchase cloud-based machine learning products from tech giants (e.g., Microsoft, Google, Amazon) if they need such an automation toolkit.
