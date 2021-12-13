@@ -8,13 +8,13 @@
 - [PLAN](#plan)
 - [CONTACT](#contact)
 - [INSTALLATION](#installation)
-  * [Instruction (conda)](##instruction--conda-)
-  * [Instruction (pip)](##instruction--pip-)
-  * [Instruction (optional but highly recommended)](##instruction--optional-but--highly-recommended--)
+  * [Instruction (conda)](#instruction--conda-)
+  * [Instruction (pip)](#instruction--pip-)
+  * [Instruction (optional but highly recommended)](#instruction--optional-but--highly-recommended--)
 - [USAGE](#usage)
-  * [1. Auto-save](##1-auto-save)
-  * [2. Terminating redundant plotting and useless data loading](##2-terminating-redundant-plotting-and-useless-data-loading)
-  * [3. Adaptive plotting algorithm](##3-adaptive-plotting-algorithm)
+  * [1. Auto-save](#1-auto-save)
+  * [2. Terminating redundant plotting and useless data loading](#2-terminating-redundant-plotting-and-useless-data-loading)
+  * [3. Adaptive plotting algorithm](#3-adaptive-plotting-algorithm)
 
 ## INTRODUCTION
 The macOS application resides in this repository is called `YouML` which stands for “`YOU`r (free) `M`achine `L`earning (toolkit).” It intends to provide the data science community a `free` and `no-code` toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a `platform` where users can obtain `solutions` to address tough problems in their machine learning tasks.
@@ -34,7 +34,8 @@ Mainstream data science libraries are employed by YouML to ensure high-efficient
 - Feature Selection: [Scikit-learn](https://scikit-learn.org)
 - Feature Engineering: [Scikit-learn](https://scikit-learn.org), [SQLite](https://www.sqlite.org), [Scipy](https://scipy.org), [blist](https://pypi.org/project/blist)
 - Machine Learning Models: [Scikit-learn](https://scikit-learn.org), [Intel Extension for Scikit-learn](https://intel.github.io/scikit-learn-intelex)
-![](https://github.com/ChongyaSong/YouML/raw/main/Logo.png)
+
+![](https://github.com/ChongyaSong/YouML/raw/main/Logos_of_Libs.png)
 
 ## TARGET GROUP
 YouML is designed for `entry-to-mid` level users (prior knowledge of statistics is desirable), sophisticated users could purchase cloud-based machine learning products from tech giants (e.g., Microsoft, Google, Amazon) if they need such an automation toolkit.
