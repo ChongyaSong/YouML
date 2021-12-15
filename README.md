@@ -116,7 +116,7 @@ This command creates a copy of YouML executable in folder /Applications. Now, yo
 YouML is able to track and save your most-updated progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
 
 ### 2. Creating a branch for an experiment
-You may run into the following situation during data preprocessing: you are very satisfied with the conducted manipulations so far, however, you have different ideas for the next steps and would like to compare the accuracy of models result from different data. Achieving it through repeatedly undo and redo multiple manipulations is apparently a bad practice. Fortunately, YouML allows you to create a branch for any experiment by clicking a button next to the experiment name, which works in the following way:
+You may run into the following situation during data preprocessing: you are very satisfied with the conducted manipulations so far, however, you have different ideas for the next steps and would like to compare the accuracy of models result from different data. Achieving it through repeatedly undo and redo multiple manipulations is apparently a bad practice. Fortunately, YouML allows you to create a branch for an experiment by clicking a button next to the experiment name, which works in the following way:
 
 Assume an experiment has conducted 3 data manipulations: original data ---1---> data_1 ---2---> data_2 ---3---> data_3<br />
 After creating a branch, both of the experiment and its branch are starting/attached with/to `data_3` (i.e., original data).<br />
