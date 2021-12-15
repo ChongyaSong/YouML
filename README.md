@@ -113,13 +113,14 @@ This command creates a copy of YouML executable in folder /Applications. Now, yo
 
 ## USAGE
 ### 1. Auto-save
-YouML is able to track and save your progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
+YouML is able to track and save your most-updated progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
 
 ### 2. Creating a branch for an experiment
 You may run into the following situation during data preprocessing: you are very satisfied with the conducted manipulations so far, however, you have different ideas for the next steps and would like to compare the accuracy of models result from different data. Achieving it through repeatedly undo and redo multiple manipulations is apparently a bad practice. Fortunately, YouML allows you to create a branch for any experiment by clicking a button next to the experiment name, which works in the following way:
 
 Assume an experiment has conducted 3 data manipulations: original data ---1---> data_1 ---2---> data_2 ---3---> data_3<br />
-After branching, both of the experiment and its branch are starting with `data_3`.
+After creating a branch, both of the experiment and its branch are starting/attached with/to `data_3` (i.e., original data).
+Reminder: if you choose another data in data panel, the new data will be employed in creating a branch.
 
 ### 3. Terminating redundant plotting and useless data loading
 The employed plotting library Matplotlib is not designed for real-time display, but for generating publication-quality figures. By default, a small figure associated with each feature is produced and filled into a table at the bottom after each preprocessing manipulation. As a result, YouML may take more than 10 seconds to draw all `colorful` figures (refer to the second paragraph of USAGE No.3) if the numbers of samples and features exceed 50,000 and 50, simultaneously. It is the fact that the small figures are not that informative due to the limitation of the size. Therefore, YouML also visualizes each feature in separate 6X-larger widgets and doesn’t generate these redundant (i.e., small) figures when the product of #samples and #features is greater than 2.5e6 (i.e., 50,000 times 50). The 6X-larger figures are publication-quality (i.e., ppi = 300) and are generated within a few seconds even if the number of samples exceeds 1e5.
