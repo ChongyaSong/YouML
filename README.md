@@ -118,7 +118,7 @@ YouML is able to track and save your progress automatically, so there is no save
 ### 2. Creating a branch for an experiment
 You may run into the following situation during data preprocessing: you are very satisfied with the conducted manipulations so far, however, you have different ideas for the next steps and would like to compare the accuracy of models result from different data. Achieving it through repeatedly undo and redo multiple manipulations is apparently a bad practice. Fortunately, YouML allows you to create a branch for any experiment by clicking a button next to the experiment name, which works in the following way:
 
-Assume an experiment has conducted 3 data manipulations: original data ---1---> data_1 ---2---> data_2 ---3---> data_3
+Assume an experiment has conducted 3 data manipulations: original data ---1---> data_1 ---2---> data_2 ---3---> data_3<br />
 After branching, both of the experiment and its branch are starting with `data_3`.
 
 ### 3. Terminating redundant plotting and useless data loading
