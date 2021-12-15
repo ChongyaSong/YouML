@@ -120,7 +120,7 @@ You may run into the following situation during data preprocessing: you are very
 
 Assume an experiment has conducted 3 data manipulations: original data ---1---> data_1 ---2---> data_2 ---3---> data_3<br />
 After creating a branch, both of the experiment and its branch are starting/attached with/to `data_3` (i.e., original data).<br />
-Reminder: if you choose another data in data panel, the new data will be employed in creating a branch.
+Reminder: if you choose another data in data panel, the new data will be employed in creating a branch because Auto-save is always tracking your most-updated progress (refer to USAGE No.1).
 
 ### 3. Terminating redundant plotting and useless data loading
 The employed plotting library Matplotlib is not designed for real-time display, but for generating publication-quality figures. By default, a small figure associated with each feature is produced and filled into a table at the bottom after each preprocessing manipulation. As a result, YouML may take more than 10 seconds to draw all `colorful` figures (refer to the second paragraph of USAGE No.3) if the numbers of samples and features exceed 50,000 and 50, simultaneously. It is the fact that the small figures are not that informative due to the limitation of the size. Therefore, YouML also visualizes each feature in separate 6X-larger widgets and doesn’t generate these redundant (i.e., small) figures when the product of #samples and #features is greater than 2.5e6 (i.e., 50,000 times 50). The 6X-larger figures are publication-quality (i.e., ppi = 300) and are generated within a few seconds even if the number of samples exceeds 1e5.
