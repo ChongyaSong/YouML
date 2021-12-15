@@ -13,11 +13,12 @@
   * [Instruction (optional but highly recommended)](#instruction--optional-but--highly-recommended--)
 - [USAGE](#usage)
   * [1. Auto-save](#1-auto-save)
-  * [2. Terminating redundant plotting and useless data loading](#2-terminating-redundant-plotting-and-useless-data-loading)
-  * [3. Adaptive plotting algorithm](#3-adaptive-plotting-algorithm)
+  * [2. Creating a branch for an experiment](#2-creating-a-branch-for-an-experiment)
+  * [3. Terminating redundant plotting and useless data loading](#3-terminating-redundant-plotting-and-useless-data-loading)
+  * [4. Adaptive plotting algorithm](#4-adaptive-plotting-algorithm)
 
 ## INTRODUCTION
-The macOS application resides in this repository is called `YouML` which stands for “`YOU`r (free) `M`achine `L`earning (toolkit).” It intends to provide the data science community a `free` and `no-code` toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a `platform` where users can obtain `solutions` to address tough problems in their machine learning tasks.
+The macOS application resides in this repository is called `YouML` which stands for “`You`r (free) `M`achine `L`earning (toolkit).” It intends to provide the data science community a `free` and `no-code` toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a `platform` where users can obtain `solutions` to address tough problems in their machine learning tasks.
 
 | Task  | The number of algorithms  | Extra Information |
 | :------------ |:---------------:| -----:|
@@ -114,12 +115,18 @@ This command creates a copy of YouML executable in folder /Applications. Now, yo
 ### 1. Auto-save
 YouML is able to track and save your progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
 
-### 2. Terminating redundant plotting and useless data loading
+### 2. Creating a branch for an experiment
+You may run into the following situation during data preprocessing: you are very satisfied with the conducted manipulations so far, however, you have different ideas for the next steps and would like to compare the accuracy of models result from different data. Achieving it through repeatedly undo and redo multiple manipulations is apparently a bad practice. Fortunately, YouML allows you to create a branch for any experiment by clicking a button next to the experiment name, which works in the following way:
+
+Assume an experiment has conducted 3 data manipulations: original data ---1---> data_1 ---2---> data_2 ---3---> data_3
+After branching, both of the experiment and its branch are starting with `data_3`.
+
+### 3. Terminating redundant plotting and useless data loading
 The employed plotting library Matplotlib is not designed for real-time display, but for generating publication-quality figures. By default, a small figure associated with each feature is produced and filled into a table at the bottom after each preprocessing manipulation. As a result, YouML may take more than 10 seconds to draw all `colorful` figures (refer to the second paragraph of USAGE No.3) if the numbers of samples and features exceed 50,000 and 50, simultaneously. It is the fact that the small figures are not that informative due to the limitation of the size. Therefore, YouML also visualizes each feature in separate 6X-larger widgets and doesn’t generate these redundant (i.e., small) figures when the product of #samples and #features is greater than 2.5e6 (i.e., 50,000 times 50). The 6X-larger figures are publication-quality (i.e., ppi = 300) and are generated within a few seconds even if the number of samples exceeds 1e5.
 
 Furthermore, samples are also loaded into the table after each preprocessing manipulation. However, users would refer to summary and statistical information instead of specific samples when preprocessing big data in practice. Consequently, YouML allows users to manually turn off the data loading and the figure plotting features.
 
-### 3. Adaptive plotting algorithm
+### 4. Adaptive plotting algorithm
 You may find some of the small figures are different from the corresponding large ones. This is not caused by a bug, but result from a built-in `adaptive plotting algorithm`. In short, the algorithm is able to mine data pattern from various perspectives by adjusting 6 decoupled parameters (will be available in YouML). As a result, users may discover more valuable patterns, generate more informative data and build more accurate models.
 
 In addition, if the number of unique target values doesn’t exceed 20 (configurable in future versions), the large figures are colorful and each color represents one value, otherwise, the large figures are plain. This is due to a fact that users may not gain useful information from complicated figures. 
