@@ -42,7 +42,7 @@ Mainstream data science libraries are employed by YouML to ensure high-efficient
 YouML is designed for `entry-to-mid` level users (prior knowledge of statistics is desirable), sophisticated users could purchase cloud-based machine learning products from tech giants (e.g., Microsoft, Google, Amazon) if they need such an automation toolkit.
 
 + Entry-level
-    * data science learners (e.g., students)
+    * machine learning learners (e.g., students)
 	* programmers who intend to build and incorporate machine learning models into their programs
 + Mid-level
 	* users who intend to utilize YouML as a data preprocessing toolkit and feed the preprocessed data into their model scripts
