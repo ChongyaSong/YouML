@@ -117,8 +117,8 @@ This command creates a copy of YouML executable in folder /Applications. Now, yo
 YouML is able to track and save your most-updated progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
 
 ### 2. Availablility of sidebars
-The availablility of sidebars is shown in the table below.
-| Sidebar  | Experiment  | Data | Sampling | Processing | Splitting | Model
+The availablility of sidebars on each panel is shown in the table below.
+| Sidebar / Panel  | Experiment  | Data | Sampling | Processing | Splitting | Model
 | :------------ |:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
 | Workflow | √ | √ | √ | √ | √ | √ |
 | Table    |   | √ | √ | √ | √ |   |
