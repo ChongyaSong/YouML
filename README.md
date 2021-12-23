@@ -17,6 +17,7 @@
   * [3. Creating a branch for an experiment](#3-creating-a-branch-for-an-experiment)
   * [4. Terminating redundant plotting and useless data loading](#4-terminating-redundant-plotting-and-useless-data-loading)
   * [5. Adaptive data visualization algorithm](#5-adaptive-data-visualization-algorithm)
+- [DEMO](#demo)
 
 ## INTRODUCTION
 The macOS application resides in this repository is named `YouML` which stands for “`You`r (free) `M`achine `L`earning (toolkit).” It intends to provide the machine learning community a `free` and `no-code` toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a `platform` where users can obtain `solutions` to address tough problems in their machine learning tasks.
@@ -142,3 +143,5 @@ You may find some of the small figures are different from the corresponding larg
 In addition, if the number of unique target values doesn’t exceed 20 (configurable in future versions), the large figures are colorful and each color represents one value, otherwise, the large figures are plain. This is due to a fact that users may not gain useful information from complicated figures. 
 
 On the other hand, the labels on each axis are separately replaced by unique letters if the number of labels exceeds 26 or the conjunction of all labels is longer than the corresponding axis. The mapping relation between labels and letter can be found in a list adjacent to figures.
+
+## DEMO
