@@ -120,12 +120,12 @@ This command creates a copy of YouML executable in folder /Applications. Now, yo
 YouML is able to track and save your most-updated progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
 
 ### 2. Availablility of sidebars
-The availablility of sidebars on each panel is shown in the table below.
+The availablility of sidebars on each panel is shown in the table below. To trigger a sidebar, you should move the pointer to the corresponding edge/border.
 | Sidebar / Panel  | Experiment  | Data | Sampling | Processing | Splitting | Model
 | :------------ |:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
-| Workflow | √ | √ | √ | √ | √ | √ |
-| Table    |   | √ | √ | √ | √ |   |
-| Feature Selection |   |   | √ | √ |   |   |
+| Workflow (left)   | √ | √ | √ | √ | √ | √ |
+| Table (bottom)    |   | √ | √ | √ | √ |   |
+| Feature Selection (right) |   |   | √ | √ |   |   |
 
 ### 3. Creating a branch for an experiment
 You may run into the following situation during data preprocessing: you are very satisfied with the conducted manipulations so far, however, you have different ideas for the next steps and would like to compare the accuracy of models result from different data. Achieving it through repeatedly undo and redo multiple manipulations is apparently a bad practice. Fortunately, YouML allows you to create a branch for an experiment by clicking a button next to the experiment name, which works in the following way:
