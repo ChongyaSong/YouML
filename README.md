@@ -18,6 +18,7 @@
   * [4. Terminating redundant plotting and useless data loading](#4-terminating-redundant-plotting-and-useless-data-loading)
   * [5. Adaptive data visualization algorithm](#5-adaptive-data-visualization-algorithm)
 - [DEMO](#demo)
+  * [Screenshot](#screenshot)
 
 ## INTRODUCTION
 The macOS application resides in this repository is named `YouML` which stands for “`You`r (free) `M`achine `L`earning (toolkit).” It intends to provide the machine learning community a `free` and `no-code` toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a `platform` where users can obtain `solutions` to address tough problems in their machine learning tasks.
@@ -145,3 +146,20 @@ In addition, if the number of unique target values doesn’t exceed 20 (configur
 On the other hand, the labels on each axis are separately replaced by unique letters if the number of labels exceeds 26 or the conjunction of all labels is longer than the corresponding axis. The mapping relation between labels and letter can be found in a list adjacent to figures.
 
 ## DEMO
+### Screenshot
+Experiment Panel
+![](https://github.com/ChongyaSong/YouML-backend/blob/main/Experiment%20Panel.png)
+Data Panel (attach data)
+![](https://github.com/ChongyaSong/YouML-backend/blob/main/Data%20Panel%20(attach%20data).png)
+Data Panel (import data)
+![](https://github.com/ChongyaSong/YouML-backend/blob/main/Data%20Panel%20(import%20data).png)
+Sampling Panel with Feature Selection
+![](https://github.com/ChongyaSong/YouML-backend/blob/main/Sampling%20Panel.png)
+Processing Panel
+![](https://github.com/ChongyaSong/YouML-backend/blob/main/Processing%20Panel.png)
+Splitting Panel with Workflow
+![](https://github.com/ChongyaSong/YouML-backend/blob/main/Splitting%20Panel.png)
+Model Panel (classification)
+![](https://github.com/ChongyaSong/YouML-backend/blob/main/Model%20Panel%20(classification).png)
+Model Panel (regression)
+![](https://github.com/ChongyaSong/YouML-backend/blob/main/Model%20Panel%20(regression).png)
