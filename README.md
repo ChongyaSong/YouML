@@ -19,6 +19,7 @@
   * [5. Adaptive data visualization algorithm](#5-adaptive-data-visualization-algorithm)
 - [DEMO](#demo)
   * [Screenshot](#screenshot)
+  * [Video](#video)
 
 ## INTRODUCTION
 The macOS application resides in this repository is named `YouML` which stands for “`You`r (free) `M`achine `L`earning (toolkit).” It intends to provide the machine learning community a `free` and `no-code` toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a `platform` where users can obtain `solutions` to address tough problems in their machine learning tasks.
@@ -163,3 +164,6 @@ Model Panel (classification)
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Model%20Panel%20(classification).png)
 Model Panel (regression)
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Model%20Panel%20(regression).png)
+
+### Video
+
