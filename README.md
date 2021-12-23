@@ -10,7 +10,7 @@
 - [INSTALLATION](#installation)
   * [Instruction (conda)](#instruction-conda)
   * [Instruction (pip)](#instruction-pip)
-  * [Instruction (optional but `highly recommended`)](#instruction-optional-but--highly-recommended)
+  * [Instruction (optional but `highly recommended`)](#instruction--optional-but--highly-recommended--)
 - [USAGE](#usage)
   * [1. Auto-save](#1-auto-save)
   * [2. Availablility of sidebars](#2-availablility-of-sidebars)
@@ -117,6 +117,7 @@ This command creates a copy of YouML executable in folder /Applications. Now, yo
 YouML is able to track and save your most-updated progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
 
 ### 2. Availablility of sidebars
+The availablility of sidebars is shown in the table below.
 | Sidebar  | Experiment  | Data | Sampling | Processing | Splitting | Model
 | :------------ |:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
 | Workflow | √ | √ | √ | √ | √ | √ |
