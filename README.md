@@ -10,13 +10,13 @@
 - [INSTALLATION](#installation)
   * [Instruction (conda)](#instruction-conda)
   * [Instruction (pip)](#instruction-pip)
-  * [Instruction (optional but `highly recommended`)](#instruction-optional-but--highly-recommended-)
+  * [Instruction (optional but `highly recommended`)](#instruction-optional-but-highly-recommended-)
 - [USAGE](#usage)
   * [1. Auto-save](#1-auto-save)
   * [2. Availablility of sidebars](#2-availablility-of-sidebars)
   * [3. Creating a branch for an experiment](#3-creating-a-branch-for-an-experiment)
   * [4. Terminating redundant plotting and useless data loading](#4-terminating-redundant-plotting-and-useless-data-loading)
-  * [5. Adaptive visualization algorithm](#5-adaptive-visualization-algorithm)
+  * [5. Adaptive data visualization algorithm](#5-adaptive-data-visualization-algorithm)
 
 ## INTRODUCTION
 The macOS application resides in this repository is named `YouML` which stands for “`You`r (free) `M`achine `L`earning (toolkit).” It intends to provide the machine learning community a `free` and `no-code` toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a `platform` where users can obtain `solutions` to address tough problems in their machine learning tasks.
@@ -136,8 +136,8 @@ The employed plotting library Matplotlib is not designed for real-time display, 
 
 Furthermore, samples are also loaded into the table after each preprocessing manipulation. However, users would refer to summary and statistical information instead of specific samples when preprocessing big data in practice. Consequently, YouML allows users to manually turn off the data loading and the figure plotting features.
 
-### 5. Adaptive visualization algorithm
-You may find some of the small figures are different from the corresponding large ones. This is not caused by a bug, but result from a built-in `adaptive plotting algorithm`. In short, the algorithm is able to mine data pattern from various perspectives by adjusting 6 decoupled parameters (will be available in YouML). As a result, users may discover more valuable patterns, generate more informative data and build more accurate models.
+### 5. Adaptive data visualization algorithm
+You may find some of the small figures are different from the corresponding large ones. This is not caused by a bug, but result from a built-in `adaptive data visualization algorithm`. In short, the algorithm is able to mine data pattern from various perspectives by adjusting 6 decoupled parameters (will be available in YouML). As a result, users may discover more valuable patterns, generate more informative data and build more accurate models.
 
 In addition, if the number of unique target values doesn’t exceed 20 (configurable in future versions), the large figures are colorful and each color represents one value, otherwise, the large figures are plain. This is due to a fact that users may not gain useful information from complicated figures. 
 
