@@ -24,7 +24,6 @@ setup(
                         'xlrd',
                         'tqdm',
                         'apsw',
-                        'scipy',
                         'blist',
                         'cycler',
                         'psutil',
@@ -39,9 +38,10 @@ setup(
                         'matplotlib==3.4.2',
                         'pandas==1.3.2',
                         'numpy==1.20.3',
+                        'scipy==1.7.1',
                         'pyqt5==5.9.2',
                     ],
 
     zip_safe = False,
-    
+
     )
