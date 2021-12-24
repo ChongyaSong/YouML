@@ -82,7 +82,7 @@ Although it is easier to install dependencies using pip3, I still recommend `beg
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
 
 ### Instruction (conda)
-1. Installing Anaconda or Miniconda (recommended) by following the instruction below. Beginners could download and use any installer (excluding ARM-based) to simplify the installation)<br />
+1. Installing Anaconda or Miniconda (recommended) by following the instruction below. Beginners could download and use any installer (excluding ARM-based) to simplify the installation.<br />
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 
 2. Opening a command prompt/terminal and navigating to the uncompressed folder `YouML-main`.<br />
@@ -151,24 +151,33 @@ On the other hand, the labels on each axis are separately replaced by unique let
 
 ## DEMO
 ### Screenshot
+
 Experiment Panel
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Experiment%20Panel.png)
+
 Data Panel (attach data)
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Data%20Panel%20(attach%20data).png)
+
 Data Panel (import data)
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Data%20Panel%20(import%20data).png)
+
 Sampling Panel with Feature Selection
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Sampling%20Panel.png)
+
 Processing Panel
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Processing%20Panel.png)
+
 Splitting Panel with Workflow
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Splitting%20Panel.png)
+
 Model Panel (classification)
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Model%20Panel%20(classification).png)
+
 Model Panel (regression)
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Model%20Panel%20(regression).png)
 
 ### Video
+
 Quick View
 [![Quick View](https://github.com/ChongyaSong/YouML-backend/blob/main/Video%201.png)](https://youtu.be/nJXOkxjIRVM)
 
