@@ -54,7 +54,7 @@ YouML is designed for `entry-to-mid` level users (prior knowledge of statistics 
 	* small businesses that eager to gain insights from their data 
 
 ## PLAN
-A preliminary technical solution to accomplish the aforementioned ultimate goal has been determined, which also includes `Windows` and `Linux`(ready-to-release) versions. I will make every effort and try to look for others to ensure on-schedule completion. What I pursue is to create an application that is/with (a):
+A preliminary technical solution to accomplish the aforementioned ultimate goal has been determined, which also includes `Windows` and `Linux(ready-to-release)` versions. I will make every effort and try to look for others to ensure on-schedule completion. What I pursue is to create an application that is/with (a):
 - Toolkit & `Solution hub`
 - Script-level flexibility
 - No-code & Low learning curve
