@@ -72,7 +72,7 @@ Profile: [https://www.linkedin.com/in/chongya-song/](https://www.linkedin.com/in
 ## INSTALLATION
 YouML adopts the same installation approach as common Python packages (i.e., run a setup.py script), so experienced users may skip this section and directly install YouML in their preferred manners.
 
-Downloading and uncompressing the file named “YouML” in the repository. YouML runs on top of nearly 50 dependencies which can be installed by two package managers:
+Downloading the entire repository and uncompressing it as a folder YouML-main. YouML runs on top of nearly 50 dependencies which can be installed by two package managers:
 1.	Conda (recommended)
 2.	Pip3
 
@@ -86,7 +86,7 @@ Although it is easier to install dependencies using pip3, I still recommend `beg
 (beginners could download and use any installer to simplify the installation)<br />
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 
-2. Opening a command prompt/terminal and navigating to the uncompressed folder YouML.<br />
+2. Opening a command prompt/terminal and navigating to the uncompressed folder YouML-main.<br />
    Reminder: installing YouML outside the folder YouML will result in `ModuleNotFoundError`).
 
 3. `conda config --append channels conda-forge`<br />
@@ -105,7 +105,7 @@ This command installs YouML into the conda virtual environment, which can be lau
 1. Installing a Python3 interpreter with a version of 3.7.11 or later (pip is included by default).<br />
 https://www.python.org/downloads/
 
-2. Opening a command prompt/terminal and navigating to the uncompressed folder YouML.<br />
+2. Opening a command prompt/terminal and navigating to the uncompressed folder YouML-main.<br />
    Reminder: installing YouML outside the folder YouML will result in `ModuleNotFoundError`).
 
 3. `python3 setup_pip.py install`<br />
