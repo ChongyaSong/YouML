@@ -166,4 +166,5 @@ Model Panel (regression)
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Model%20Panel%20(regression).png)
 
 ### Video
-[![IMAGE ALT TEXT HERE](https://github.com/ChongyaSong/YouML-backend/blob/main/Video%201.png)](https://youtu.be/nJXOkxjIRVM)
+[![Quick View](https://github.com/ChongyaSong/YouML-backend/blob/main/Video%201.png)](https://youtu.be/nJXOkxjIRVM)
+[![Tutorial](https://github.com/ChongyaSong/YouML-backend/blob/main/Video%202.png)](https://youtu.be/Pe6Dt7e6Aug)
