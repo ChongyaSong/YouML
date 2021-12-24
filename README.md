@@ -11,7 +11,7 @@
   * [Instruction (conda)](#instruction-conda)
   * [Instruction (pip)](#instruction-pip)
   * [Instruction (optional but `highly recommended`)](#instruction-optional-but-highly-recommended)
-- [USAGE](#usage)
+- [TOTURIAL](#toturial)
   * [1. Auto-save](#1-auto-save)
   * [2. Availablility of sidebars](#2-availablility-of-sidebars)
   * [3. Creating a branch for an experiment](#3-creating-a-branch-for-an-experiment)
@@ -86,13 +86,13 @@ Although it is easier to install dependencies using pip3, I still recommend `beg
 (beginners could download and use any installer to simplify the installation)<br />
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 
-2. Opening a command prompt/terminal and navigating to the uncompressed folder YouML.
+2. Opening a command prompt/terminal and navigating to the uncompressed folder YouML (reminder: installing YouML outside the folder YouML will result in `ModuleNotFoundError`).
 
 3. `conda config --append channels conda-forge`<br />
 This command enables your conda to download dependencies from conda-forge repository because a few dependencies and/or specific versions are not available in the default repository.
 
 4. `conda create --name YouML --file Dependency.txt --yes`<br />
-This command creates a new conda virtual environment called “YouML” (case-insensitive) in which all dependencies are installed.
+This command creates a new conda virtual environment named “YouML” (case-insensitive) in which all dependencies are installed.
 
 5. `conda activate YouML`<br />
 This command brings you into the conda virtual environment YouML.
@@ -104,7 +104,7 @@ This command installs YouML into the conda virtual environment, which can be lau
 1. Installing a Python3 interpreter with a version of 3.7.11 or later (pip is included by default).<br />
 https://www.python.org/downloads/
 
-2. Opening a command prompt/terminal and navigating to the uncompressed folder YouML.
+2. Opening a command prompt/terminal and navigating to the uncompressed folder YouML (reminder: installing YouML outside the folder YouML will result in `ModuleNotFoundError`).
 
 3. `python3 setup_pip.py install`<br />
 This command installs YouML and the associated dependencies on your machine.
@@ -115,7 +115,7 @@ This command creates a copy of YouML executable in folder /Applications. Now, yo
 
 ----
 
-## USAGE
+## TOTURIAL
 ### 1. Auto-save
 YouML is able to track and save your most-updated progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
 
