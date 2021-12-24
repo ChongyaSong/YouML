@@ -82,8 +82,7 @@ Although it is easier to install dependencies using pip3, I still recommend `beg
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
 
 ### Instruction (conda)
-1. Installing Anaconda or Miniconda (recommended) by following the instruction below:<br />
-(beginners could download and use any installer to simplify the installation)<br />
+1. Installing Anaconda or Miniconda (recommended) by following the instruction below. Beginners could download and use any installer (excluding ARM-based) to simplify the installation)<br />
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 
 2. Opening a command prompt/terminal and navigating to the uncompressed folder `YouML-main`.<br />
@@ -118,6 +117,8 @@ This command creates a copy of YouML executable in folder /Applications. Now, yo
 ----
 
 ## TOTURIAL
+Reminder: ARM-based Macs may wait for minutes when starting YouML for the first time (due to the binary translation performed by Rosetta 2), but it only takes seconds to start YouML afterward.
+
 ### 1. Auto-save
 YouML is able to track and save your most-updated progress automatically, so there is no save button and data will not loss unless YouML is quit forcibly.
 
