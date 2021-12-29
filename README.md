@@ -7,10 +7,10 @@
 - [TARGET GROUP](#target-group)
 - [PLAN](#plan)
 - [CONTACT](#contact)
-- [INSTALLATION](#installation)
-  * [Instruction (conda)](#instruction-conda)
-  * [Instruction (pip)](#instruction-pip)
-  * [Instruction (optional but `highly recommended`)](#instruction-optional-but-highly-recommended)
+- [INSTALLATION AND LAUNCH](#installation-and-launch)
+  * [Conda](#conda)
+  * [Pip](#pip)
+  * [Optional (`highly recommended`)](#optional-highly-recommended)
 - [TOTURIAL](#toturial)
   * [1. Auto-save](#1-auto-save)
   * [2. Availablility of sidebars](#2-availablility-of-sidebars)
@@ -69,7 +69,7 @@ Profile: [https://www.linkedin.com/in/chongya-song/](https://www.linkedin.com/in
 
 ----
 
-## INSTALLATION
+## INSTALLATION AND LAUNCH
 YouML adopts the same installation approach as common Python packages (i.e., run a setup.py script), so experienced users may skip this section and directly install YouML in their preferred manners.
 
 Downloading the entire repository and uncompressing it as a folder `YouML-main`. YouML runs on top of nearly 50 dependencies which can be installed by two package managers:
@@ -81,7 +81,7 @@ Although it is easier to install dependencies using pip3, I still recommend `beg
 2.	Pip3 installs dependencies in a serial and recursive way, so no effort is made to ensure the compatibilities among dependencies are fulfilled simultaneously.
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
 
-### Instruction (conda)
+### Conda
 1. Installing Anaconda or Miniconda (recommended) by following the instruction below. Beginners could download and use any installer (excluding ARM-based) to simplify the installation.<br />
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 
@@ -100,7 +100,7 @@ This command brings you into the conda virtual environment YouML.
 6. `python3 setup_conda.py install`<br />
 This command installs YouML into the conda virtual environment, which can be launched by command: “YouML” (case-insensitive). Reminder: the prerequisite of launching YouML in this manner is to enter the conda virtual environment YouML (i.e., step No.5).
 
-### Instruction (pip)
+### Pip
 1. Installing a Python3 interpreter with a version of 3.7.11 or later (pip is included by default).<br />
 https://www.python.org/downloads/
 
@@ -110,7 +110,7 @@ https://www.python.org/downloads/
 3. `python3 setup_pip.py install`<br />
 This command installs YouML and the associated dependencies on your machine.
 
-### Instruction (optional but `highly recommended`)
+### Optional (`highly recommended`)
 `which YouML | xargs -I {} cp {} /Applications`<br />
 This command creates a copy of YouML executable in folder /Applications. Now, you can drag & drop it anywhere (e.g., dock) and open it by clicking.
 
