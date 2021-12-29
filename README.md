@@ -108,7 +108,7 @@ https://www.python.org/downloads/
    Reminder: installing YouML outside the folder YouML will result in `ModuleNotFoundError`).
 
 3. `python3 setup_pip.py install`<br />
-This command installs YouML and the associated dependencies on your machine.
+This command installs YouML and the associated dependencies on your machine, which can be launched by command: “YouML” (case-insensitive). 
 
 ### Optional (`highly recommended`)
 `which YouML | xargs -I {} cp {} /Applications`<br />
