@@ -179,9 +179,17 @@ Model Panel (regression)
 ### Video
 
 Quick View
+
+YouTube
 [![Quick View](https://github.com/ChongyaSong/YouML-backend/blob/main/Video%201.png)](https://youtu.be/nJXOkxjIRVM)
+
+bilibili
 [![Quick View](https://github.com/ChongyaSong/YouML-backend/blob/main/Video%201%20(B).png)](https://www.bilibili.com/video/BV1xL411571d?spm_id_from=333.999.0.0)
 
 Tutorial
+
+YouTube
 [![Tutorial](https://github.com/ChongyaSong/YouML-backend/blob/main/Video%202.png)](https://youtu.be/Pe6Dt7e6Aug)
+
+bilibili
 [![Tutorial](https://github.com/ChongyaSong/YouML-backend/blob/main/Video%202%20(B).png)](https://www.bilibili.com/video/BV1Dr4y1U7L9?spm_id_from=333.999.0.0)
