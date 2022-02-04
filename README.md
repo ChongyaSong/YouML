@@ -22,7 +22,7 @@
   * [Video](#video)
 
 ## INTRODUCTION
-The macOS application resides in this repository is named `YouML` which stands for “`You`r (free) `M`achine `L`earning (toolkit).” It intends to provide the machine learning community a `free` and `no-code` toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a `platform` where users can obtain `solutions` to address tough problems in their machine learning tasks.
+The application resides in this repository is named `YouML` which stands for “`You`r (free) `M`achine `L`earning (toolkit).” It intends to provide the machine learning community a `free` and `no-code` toolkit for preprocessing data and building machine learning models. Several key features will be released after no major bug can be found in the current version. The ultimate goal is to deliver a `platform` where users can obtain `solutions` to address tough problems in their machine learning tasks.
 
 | Task  | The number of algorithms  | Extra Information |
 | :------------ |:---------------:| -----:|
@@ -54,7 +54,7 @@ YouML is designed for `entry-to-mid` level users (prior knowledge of statistics 
 	* small businesses that eager to gain insights from their data 
 
 ## PLAN
-A preliminary technical solution to accomplish the aforementioned ultimate goal has been determined, which also includes `Windows` and `Linux(ready-to-release)` versions. I will make every effort and try to look for others to ensure on-schedule completion. What I pursue is to create an application that is/with (a):
+A preliminary technical solution to accomplish the aforementioned ultimate goal has been determined. I will make every effort and try to look for others to ensure on-schedule completion. What I pursue is to create an application that is/with (a):
 - Toolkit & `Solution hub`
 - Script-level flexibility
 - No-code & Low learning curve
@@ -101,7 +101,7 @@ This command brings you into the conda virtual environment YouML.
 This command installs YouML into the conda virtual environment, which can be launched by command: “YouML” (case-insensitive). Reminder: the prerequisite of launching YouML in this manner is to enter the conda virtual environment YouML (i.e., step No.5).
 
 ### Pip
-1. Installing a Python3 interpreter with a version of 3.7.11 or later (pip is included by default).<br />
+1. Installing a Python3 interpreter with a version of 3.8 or later (pip is included by default).<br />
 https://www.python.org/downloads/
 
 2. Opening a command prompt/terminal and navigating to the uncompressed folder `YouML-main`.<br />
