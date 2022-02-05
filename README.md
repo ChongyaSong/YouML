@@ -122,15 +122,15 @@ https://www.python.org/downloads/
 This command installs YouML and the associated dependencies on your machine, which can be launched by command: “YouML” (case-insensitive on MacOS, but case-sensitive on Linux and Windows Subsystem for Linux). 
 
 ### Optional (`highly recommended`)
-1. For MacOS<br />
+1. For MacOS Users<br />
 `which YouML | xargs -I {} cp {} /Applications`<br />
 This command creates a copy of YouML executable in folder /Applications. Now, you can drag & drop it to anywhere (e.g., dock) and/or open it by clicking.
 
-2. For Linux<br />
+2. For Linux Users<br />
 `which YouML | xargs -I {} cp {} ~/`<br />
 This command creates a copy of YouML executable in your home folder ~/. Now, you can drag & drop it to anywhere (e.g., dock) and/or open it by clicking.
 
-2. For Windows Subsystem for Linux (WSL)<br />
+3. For Windows Users (i.e., Windows Subsystem for Linux - WSL)<br />
 `which YouML | xargs -I {} sudo bash -c 'cat << EOF > /usr/share/applications/YouML.desktop`<br />
 `[Desktop Entry]`<br />
 `Type=Application`<br />
