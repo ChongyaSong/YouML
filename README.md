@@ -85,7 +85,7 @@ Although it is easier to install dependencies using pip3, I still recommend `beg
 1. Installing Anaconda or Miniconda (recommended) by following the instruction below. Beginners could download and use any installer (excluding ARM-based) to simplify the installation.<br />
 https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
 
-2. Opening a command prompt/terminal and navigating to the uncompressed folder `YouML-main`.<br />
+2. Opening a command prompt/terminal and navigating to the uncompressed folder `YouML-main/YouML_MacOS` or `YouML-main/YouML_Linux_Windows`.<br />
    Reminder: installing YouML outside the folder YouML will result in `ModuleNotFoundError`).
 
 3. `conda config --append channels conda-forge`<br />
@@ -104,15 +104,30 @@ This command installs YouML into the conda virtual environment, which can be lau
 1. Installing a Python3 interpreter with a version of 3.8 or later (pip is included by default).<br />
 https://www.python.org/downloads/
 
-2. Opening a command prompt/terminal and navigating to the uncompressed folder `YouML-main`.<br />
+2. Opening a command prompt/terminal and navigating to the uncompressed folder `YouML-main/YouML_MacOS` or `YouML-main/YouML_Linux_Windows`.<br />
    Reminder: installing YouML outside the folder YouML will result in `ModuleNotFoundError`).
 
 3. `python3 setup_pip.py install`<br />
-This command installs YouML and the associated dependencies on your machine, which can be launched by command: “YouML” (case-insensitive). 
+This command installs YouML and the associated dependencies on your machine, which can be launched by command: “YouML” (case-insensitive on MacOS, but case-sensitive on Linux and Windows Subsystem for Linux). 
 
 ### Optional (`highly recommended`)
+1. For MacOS
 `which YouML | xargs -I {} cp {} /Applications`<br />
-This command creates a copy of YouML executable in folder /Applications. Now, you can drag & drop it anywhere (e.g., dock) and open it by clicking.
+This command creates a copy of YouML executable in folder /Applications. Now, you can drag & drop it to anywhere (e.g., dock) and/or open it by clicking.
+
+2. For Linux
+`which YouML | xargs -I {} cp {} ~/`<br />
+This command creates a copy of YouML executable in your home folder ~/. Now, you can drag & drop it to anywhere (e.g., dock) and/or open it by clicking.
+
+2. For Windows Subsystem for Linux (WSL)
+`which YouML | xargs -I {} sudo bash -c 'cat << EOF > /usr/share/applications/YouML.desktop
+[Desktop Entry]
+Type=Application
+Name=YouML
+Version=0.6
+Exec={}
+EOF'`<br />
+This command creates a copy of YouML executable in your start menu of Windows. Now, you can move it to anywhere (e.g., taskbar) and/or open it by clicking.
 
 ----
 
