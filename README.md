@@ -81,9 +81,13 @@ Although it is easier to install dependencies using pip3, I still recommend `beg
 2.	Pip3 installs dependencies in a serial and recursive way, so no effort is made to ensure the compatibilities among dependencies are fulfilled simultaneously.
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
 
+### For Windows Users
+0. YouML runs on top of built-in `Windows Subsystem for Linux (WSL)` that hosted on your Windows 10 and 11, so the following commands should be executed within the former instead of the latter. Newcomers could install the WSL by referring the instructions below.
+https://docs.microsoft.com/en-us/windows/wsl/install
+
 ### Conda
-1. Installing Anaconda or Miniconda (recommended) by following the instruction below. Beginners could download and use any installer (excluding ARM-based) to simplify the installation.<br />
-https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html
+1. Installing Anaconda or Miniconda (recommended) by following the instructions below. Beginners could download and use any installer (excluding ARM-based) to simplify the installation.<br />
+https://docs.conda.io/en/latest/miniconda.html
 
 2. Opening a command prompt/terminal and navigating to the uncompressed folder `YouML-main/YouML_MacOS` or `YouML-main/YouML_Linux_Windows`.<br />
    Reminder: installing YouML outside the folder YouML will result in `ModuleNotFoundError`).
