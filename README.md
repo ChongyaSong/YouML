@@ -89,8 +89,11 @@ https://docs.microsoft.com/en-us/windows/wsl/install
 1. Installing Anaconda or Miniconda (recommended) by following the instructions below. Beginners could download and use any installer (excluding ARM-based) to simplify the installation.<br />
 https://docs.conda.io/en/latest/miniconda.html
 
-2. Opening a command prompt/terminal and navigating to the uncompressed folder `YouML-main/YouML_MacOS` or `YouML-main/YouML_Linux_Windows`.<br />
-   Reminder: installing YouML outside the folder YouML will result in `ModuleNotFoundError`).
+2. Opening a command prompt/terminal and navigating into the uncompressed folder:<br />
+   `YouML-main/YouML_MacOS` (for MacOS Users)<br />
+   or<br />
+   `YouML-main/YouML_Linux_Windows` (for Linux and Windows Users)<br />
+   Reminder: installing YouML outside the folder YouML_xxxxx will result in `ModuleNotFoundError`).
 
 3. `conda config --append channels conda-forge`<br />
 This command enables your conda to download dependencies from conda-forge repository because a few dependencies and/or specific versions are not available in the default repository.
@@ -108,7 +111,7 @@ This command installs YouML into the conda virtual environment, which can be lau
 1. Installing a Python3 interpreter with a version of 3.8 or later (pip is included by default).<br />
 https://www.python.org/downloads/
 
-2. Opening a command prompt/terminal and navigating to the uncompressed folder `YouML-main/YouML_MacOS` or `YouML-main/YouML_Linux_Windows`.<br />
+2. Opening a command prompt/terminal and navigating into the uncompressed folder `YouML-main/YouML_MacOS` or `YouML-main/YouML_Linux_Windows`.<br />
    Reminder: installing YouML outside the folder YouML will result in `ModuleNotFoundError`).
 
 3. `python3 setup_pip.py install`<br />
