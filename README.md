@@ -127,7 +127,7 @@ This command creates a copy of YouML executable in your home folder ~/. Now, you
 `Version=0.6`<br />
 `Exec={}`<br />
 `EOF'`<br />
-This command creates a copy of YouML executable in your start menu of Windows. Now, you can move it to anywhere (e.g., taskbar) and/or open it by clicking.
+This command creates a shortcut of YouML executable in your start menu of Windows. Now, you can pin it to anywhere (e.g., taskbar) and/or open it by clicking.
 
 ----
 
