@@ -83,7 +83,7 @@ Although it is easier to install dependencies using pip3, I still recommend `beg
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
 
 ### For Windows Users
-0. YouML runs on top of built-in `Windows Subsystem for Linux (WSL)` that hosted on your Windows 10 and 11, so the following commands should be executed within the former instead of the latter. Newcomers could install the WSL by referring the instructions below.
+0. YouML runs on top of built-in `Windows Subsystem for Linux (WSL)` that hosted on Windows 10 and 11, so the following commands should be executed within the former instead of the latter. Newcomers could install the WSL by referring the instructions below.
 https://docs.microsoft.com/en-us/windows/wsl/install
 
 ### Conda
