@@ -100,13 +100,13 @@ https://docs.conda.io/en/latest/miniconda.html
 This command enables your conda to download dependencies from conda-forge repository because a few dependencies and/or specific versions are not available in the default repository.
 
 4. `conda create --name YouML --file Dependency.txt --yes`<br />
-This command creates a new conda virtual environment named “YouML” (case-insensitive) in which all dependencies are installed.
+This command creates a new conda virtual environment named “YouML” (case-insensitive on MacOS, but case-sensitive on Linux and Windows Subsystem for Linux) in which all dependencies are installed.
 
 5. `conda activate YouML`<br />
 This command brings you into the conda virtual environment YouML.
 
 6. `python3 setup_conda.py install`<br />
-This command installs YouML into the conda virtual environment, which can be launched by command: “YouML” (case-insensitive). Reminder: the prerequisite of launching YouML in this manner is to enter the conda virtual environment YouML (i.e., step No.5).
+This command installs YouML into the conda virtual environment, which can be launched by command: “YouML” (case-insensitive on MacOS, but case-sensitive on Linux and Windows Subsystem for Linux). Reminder: the prerequisite of launching YouML in this manner is to enter the conda virtual environment YouML (i.e., step No.5).
 
 ### Pip
 1. Installing a Python3 interpreter with a version of 3.8 or later (pip is included by default).<br />
