@@ -219,3 +219,21 @@ YouTube
 
 bilibili
 [![Tutorial](https://github.com/ChongyaSong/YouML-backend/blob/main/Video%202%20(B).png)](https://www.bilibili.com/video/BV1Dr4y1U7L9?spm_id_from=333.999.0.0)
+
+Installation
+
+YouTube
+[![Installation](https://github.com/ChongyaSong/YouML-backend/blob/main/Installation%20(YouTube).png)](https://www.youtube.com/watch?v=BsXNG3c3LWM)
+
+bilibili
+[![Installation](https://github.com/ChongyaSong/YouML-backend/blob/main/Installation%20(B).png)](https://www.bilibili.com/video/BV1DY41187hb?spm_id_from=333.999.0.0)
+
+
+Linux and Windows Versions
+
+YouTube
+[![Linux and Windows Versions](https://github.com/ChongyaSong/YouML-backend/blob/main/Linux%20and%20Windows%20Version%20(YouTube).png)](https://www.youtube.com/watch?v=TyMlaCj6wig)
+
+bilibili
+[![Linux and Windows Versions](https://github.com/ChongyaSong/YouML-backend/blob/main/Linux%20and%20Windows%20Version%20(B).png)](https://www.bilibili.com/video/BV1Nb4y1771n?spm_id_from=333.999.0.0)
+
