@@ -109,7 +109,7 @@ This command brings you into the conda virtual environment YouML.
 This command installs YouML into the conda virtual environment, which can be launched by command: “YouML” (case-insensitive on MacOS, but case-sensitive on Linux and Windows Subsystem for Linux). Reminder: the prerequisite of launching YouML in this manner is to enter the conda virtual environment YouML (i.e., step No.5).
 
 ### Pip
-1. Installing a Python3 interpreter with a version of 3.8 or later (pip is included by default).<br />
+1. Installing a Python3 interpreter with a version of 3.7.11 (pip is included by default).<br />
 https://www.python.org/downloads/
 
 2. Opening a command prompt/terminal and navigating into the uncompressed folder:<br />
