@@ -1,6 +1,12 @@
 
 from setuptools import setup, find_packages
+import platform
 
+
+if platform.python_version() != '3.7.11':
+    print("To install YouML, your python version has to be 3.7.11\nIt's recommended to create a virtual environment with a python of 3.7.11")
+    exit(0)
+    
 
 setup(
 
@@ -17,6 +23,8 @@ setup(
     packages = find_packages(),
     include_package_data=True,
     entry_points = {'gui_scripts': ['YouML = YouML.Main:start']},
+    
+    python_requires = '==3.7.11',
 
     zip_safe = False,
 
