@@ -1,15 +1,14 @@
 
-![Maintainer](https://img.shields.io/badge/Maintainer-Chongya_Song-blue)
-![Email](https://img.shields.io/badge/Contact-schongy523@gmail.com-blue)<br />
-![OS](https://img.shields.io/badge/OS-Windows_Subsystem_for_Linux_(WSL)-red)
-![OS](https://img.shields.io/badge/OS-Linux-red)
-![OS](https://img.shields.io/badge/OS-MacOS-red)<br />
 ![PyPi](https://img.shields.io/badge/PyPi-v0.6.0_beta-yellow)
 ![format](https://img.shields.io/badge/Format-Wheel-yellow)
 ![Vistors](https://img.shields.io/badge/Vistors/2_weeks-358-yellow)
 ![Clone](https://img.shields.io/badge/Clone/2_weeks-33-yellow)
 ![Stars](https://img.shields.io/badge/Stars-16-yellow)<br />
-
+![OS](https://img.shields.io/badge/OS-Windows_Subsystem_for_Linux_(WSL)-red)
+![OS](https://img.shields.io/badge/OS-Linux-red)
+![OS](https://img.shields.io/badge/OS-MacOS-red)<br />
+![Maintainer](https://img.shields.io/badge/Maintainer-Chongya_Song-blue)
+![Email](https://img.shields.io/badge/Contact-schongy523@gmail.com-blue)<br />
 
 
 ![](https://github.com/ChongyaSong/YouML-backend/blob/main/Logo.png)
