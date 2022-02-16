@@ -1,8 +1,8 @@
 
 ![PyPi](https://img.shields.io/badge/PyPi-v0.6.0_beta-yellow)
 ![format](https://img.shields.io/badge/Format-Wheel-yellow)
-![Vistors](https://img.shields.io/badge/Vistors_/_2_weeks-392-yellow)
-![Clone](https://img.shields.io/badge/Clone_/_2_weeks-39-yellow)
+![Vistors](https://img.shields.io/badge/Vistors_/_recent_2_weeks-400-yellow)
+![Clone](https://img.shields.io/badge/Clone_/_recent_2_weeks-41-yellow)
 ![Stars](https://img.shields.io/badge/Stars-16-yellow)<br />
 ![OS](https://img.shields.io/badge/OS-Windows_Subsystem_for_Linux_(WSL)-red)
 ![OS](https://img.shields.io/badge/OS-Linux-red)
@@ -21,9 +21,9 @@
 - [PLAN](#plan)
 - [CONTACT](#contact)
 - [INSTALLATION AND LAUNCH](#installation-and-launch)
-- * [For Windows Users](#for-windows-users)
-  * [Conda](#conda)
-  * [Pip](#pip)
+  * [For Windows Users](#for-windows-users)
+  * [Install from PyPi via Pip3](#install-from-pypi-via-pip3)
+  * [Install from Github via Setup.py](#install-from-github-via-setup.py)
   * [Optional (`highly recommended`)](#optional-highly-recommended)
 - [TOTURIAL](#toturial)
   * [1. Auto-save](#1-auto-save)
@@ -84,31 +84,31 @@ Profile: [https://www.linkedin.com/in/chongya-song/](https://www.linkedin.com/in
 ----
 
 ## INSTALLATION AND LAUNCH
+YouML complies with the traditional installation routine as common Python packages (i.e., `pip3 install YouML` and `python setup.py install`), so experienced users may skip this section and directly install YouML in your preferred manners.
+
 ### For Windows Users
 YouML runs on top of built-in `Windows Subsystem for Linux (WSL)` that hosted on Windows 10 and 11, so the following commands should be executed within the former instead of the latter. Newcomers could install the WSL by referring the instructions below.
 https://docs.microsoft.com/en-us/windows/wsl/install
 
-YouML adopts the same installation approach as common Python packages (i.e., `pip install YouML` and `python setup.py install`), so experienced users may skip this section and directly install YouML in their preferred manners.
+### Install from PyPi via Pip3
+To install YouML, the easiest approach is to execute the following command in your command prompt/terminal:<br />
+`pip3 install YouML`
 
-### Install from PyPi
-The easiest approach is to execute the following command in your command prompt/terminal:<br />
-`pip install YouML`
+Note: To achieve a stable performance, YouML retrieved from PyPi (i.e., Python official package repository: https://pypi.org/project/YouML/) is pinned to `Python 3.7.11` which is the version for development and self-testing. Furthermore, dependencies (nearly 50) that YouML relies on may mess the current Python environment and result in conflicts with the existing packages. Accordingly, it is highly recommended to create a dedicated virtual environment (e.g., conda, pyenv) with a Python version of 3.7.11 for YouML. 
 
-To achieve a stable performance, YouML retrieved from PyPi (https://pypi.org/project/YouML/) is pinned to `Python 3.7.11` which is the same version for development and self-testing. Furthermore, dependencies (nearly 50) that YouML relies on may mess the current Python environment and result in conflicts with the existing packages. Accordingly, it is highly recommended to create a dedicated virtual environment (e.g., conda, pyenv) with a Python version of 3.7.11 for YouML. 
-
-### Install from Github
-If you prefer to use a Python interpreter with a version other than 3.7.11, please following the instructions below.
+### Install from Github via Setup.py
+If you prefer to employ a Python interpreter with a version higher than 3.7.11, please following the instructions below.
 
 Downloading the entire repository and uncompressing it as a folder `YouML-main`. YouML runs on top of nearly 50 dependencies which can be installed by two package managers:
 1.	Conda (recommended)
 2.	Pip3
 
 Although it is easier to install dependencies using pip3, I still recommend `beginners` to install everything through conda due to the following reasons:
-1.	PyPI (i.e., Python official package repository) is currently inaccessible via pip3 due to security threats. Consequently, you have to find alternative tools or search & install dependencies manually if there is something wrong with dependencies (e.g., version conflict).
+1.	PyPI is currently inaccessible via pip3 due to security threats. Consequently, you have to find alternative tools or search & install dependencies manually if there is something wrong with dependencies (e.g., version conflict).
 2.	Pip3 installs dependencies in a serial and recursive way, so no effort is made to ensure the compatibilities among dependencies are fulfilled simultaneously.
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
 
-### Conda
+#### Conda
 1. Installing Anaconda or Miniconda (recommended) by following the instructions below. Beginners could download and use any installer (excluding ARM-based) to simplify the installation.<br />
 https://docs.conda.io/en/latest/miniconda.html
 
@@ -130,7 +130,7 @@ This command brings you into the conda virtual environment YouML.
 6. `python3 setup_conda.py install`<br />
 This command installs YouML into the conda virtual environment, which can be launched by command: “YouML” (case-insensitive on MacOS, but case-sensitive on Linux and Windows Subsystem for Linux). Reminder: the prerequisite of launching YouML in this manner is to enter the conda virtual environment YouML (i.e., step No.5).
 
-### Pip
+#### Pip
 1. Installing a Python3 interpreter with a version of 3.7.11 (pip is included by default).<br />
 https://www.python.org/downloads/
 
