@@ -95,17 +95,17 @@ https://docs.microsoft.com/en-us/windows/wsl/install
 To install YouML, the easiest approach is to execute the following command (case-insensitive) in your command prompt/terminal:<br />
 `pip3 install YouML`
 
-Reminder: To achieve a stable performance, YouML retrieved from PyPi (i.e., Python official package repository: https://pypi.org/project/YouML/) is pinned to `Python 3.7.11` which is the version for development and self-testing. Furthermore, dependencies (nearly 50) that YouML relies on may mess the current Python environment and result in conflicts with the existing packages. Accordingly, it is highly recommended to create a dedicated virtual environment (e.g., conda, pyenv) with a Python version of 3.7.11 for YouML. 
+Reminder: To achieve a stable performance, YouML retrieved from PyPi (i.e., Python official package repository: https://pypi.org/project/YouML/) is pinned to `Python 3.7.11` which is the version for development and self-testing. Furthermore, dozens dependencies that YouML relies on may mess the current Python environment and result in conflicts with the existing packages. Accordingly, it is highly recommended to create a dedicated virtual environment (e.g., conda, pyenv) with a Python version of 3.7.11 for YouML. 
 
 ### Install from Github via Setup Script
 If you prefer to employ a Python interpreter with a version `higher than 3.7.11` or simply want to install YouML manually, then you could follow the instructions below.
 
-Downloading the entire repository and uncompressing it as a folder `YouML-main`. YouML runs on top of nearly 50 dependencies which can be installed by two package managers:
+Downloading the entire repository (https://github.com/ChongyaSong/YouML) and uncompressing it as a folder `YouML-main`. YouML runs on top of dozens dependencies which can be installed by two package managers:
 1.	Conda (recommended)
 2.	Pip3
 
 Although it is easier to install dependencies using pip3, I still recommend `beginners` to install everything through conda due to the following reasons:
-1.	PyPI is currently inaccessible via pip3 due to security threats. Consequently, you have to find alternative tools or search & install dependencies manually if there is something wrong with dependencies (e.g., version conflict).
+1.	The command `pip3 search` is currently inaccessible due to security threats (as of today Feb 17, 2022). Consequently, you have to manually search alternative dependencies if there is something wrong during installation (e.g., version conflict).
 2.	Pip3 installs dependencies in a serial and recursive way, so no effort is made to ensure the compatibilities among dependencies are fulfilled simultaneously.
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
 
