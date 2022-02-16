@@ -1,7 +1,7 @@
 
 ![PyPi](https://img.shields.io/badge/PyPi-v0.6.0_beta-yellow)
 ![format](https://img.shields.io/badge/Format-Wheel-yellow)
-![Vistors](https://img.shields.io/badge/Vistors_/_2_weeks-34-yellow)
+![Vistors](https://img.shields.io/badge/Vistors_/_2_weeks-392-yellow)
 ![Clone](https://img.shields.io/badge/Clone_/_2_weeks-39-yellow)
 ![Stars](https://img.shields.io/badge/Stars-16-yellow)<br />
 ![OS](https://img.shields.io/badge/OS-Windows_Subsystem_for_Linux_(WSL)-red)
@@ -84,7 +84,20 @@ Profile: [https://www.linkedin.com/in/chongya-song/](https://www.linkedin.com/in
 ----
 
 ## INSTALLATION AND LAUNCH
-YouML adopts the same installation approach as common Python packages (i.e., run a setup.py script), so experienced users may skip this section and directly install YouML in their preferred manners.
+### For Windows Users
+YouML runs on top of built-in `Windows Subsystem for Linux (WSL)` that hosted on Windows 10 and 11, so the following commands should be executed within the former instead of the latter. Newcomers could install the WSL by referring the instructions below.
+https://docs.microsoft.com/en-us/windows/wsl/install
+
+YouML adopts the same installation approach as common Python packages (i.e., `pip install YouML` and `python setup.py install`), so experienced users may skip this section and directly install YouML in their preferred manners.
+
+### Install from PyPi
+The easiest approach is to execute the following command in your command prompt/terminal:<br />
+`pip install YouML`
+
+To achieve a stable performance, YouML retrieved from PyPi (https://pypi.org/project/YouML/) is pinned to `Python 3.7.11` which is the same version for development and self-testing. Furthermore, dependencies (nearly 50) that YouML relies on may mess the current Python environment and result in conflicts with the existing packages. Accordingly, it is highly recommended to create a dedicated virtual environment (e.g., conda, pyenv) with a Python version of 3.7.11 for YouML. 
+
+### Install from Github
+If you prefer to use a Python interpreter with a version other than 3.7.11, please following the instructions below.
 
 Downloading the entire repository and uncompressing it as a folder `YouML-main`. YouML runs on top of nearly 50 dependencies which can be installed by two package managers:
 1.	Conda (recommended)
@@ -94,10 +107,6 @@ Although it is easier to install dependencies using pip3, I still recommend `beg
 1.	PyPI (i.e., Python official package repository) is currently inaccessible via pip3 due to security threats. Consequently, you have to find alternative tools or search & install dependencies manually if there is something wrong with dependencies (e.g., version conflict).
 2.	Pip3 installs dependencies in a serial and recursive way, so no effort is made to ensure the compatibilities among dependencies are fulfilled simultaneously.
 3.	The prerequisite of using pip3 is to install a Python3 interpreter on your local machine. If the version of the installed Python3 interpreter is lower than 3.7.11, YouML is unable to drop features/columns via SQL queries and you have to search & install a new one to fulfill this requirement. Different interpreters reside in the same environment may result in conflicts and/or confuse you when using.
-
-### For Windows Users
-0. YouML runs on top of built-in `Windows Subsystem for Linux (WSL)` that hosted on Windows 10 and 11, so the following commands should be executed within the former instead of the latter. Newcomers could install the WSL by referring the instructions below.
-https://docs.microsoft.com/en-us/windows/wsl/install
 
 ### Conda
 1. Installing Anaconda or Miniconda (recommended) by following the instructions below. Beginners could download and use any installer (excluding ARM-based) to simplify the installation.<br />
