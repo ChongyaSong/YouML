@@ -23,7 +23,7 @@
 - [INSTALLATION AND LAUNCH](#installation-and-launch)
   * [For Windows Users](#for-windows-users)
   * [Install from PyPi via Pip3](#install-from-pypi-via-pip3)
-  * [Install from Github via Setup.py](#install-from-github-via-setup-py)
+  * [Install from Github via Setup Script](#install-from-github-via-setup-script)
   * [Optional (`highly recommended`)](#optional-highly-recommended)
 - [TOTURIAL](#toturial)
   * [1. Auto-save](#1-auto-save)
@@ -97,8 +97,8 @@ To install YouML, the easiest approach is to execute the following command in yo
 
 Note: To achieve a stable performance, YouML retrieved from PyPi (i.e., Python official package repository: https://pypi.org/project/YouML/) is pinned to `Python 3.7.11` which is the version for development and self-testing. Furthermore, dependencies (nearly 50) that YouML relies on may mess the current Python environment and result in conflicts with the existing packages. Accordingly, it is highly recommended to create a dedicated virtual environment (e.g., conda, pyenv) with a Python version of 3.7.11 for YouML. 
 
-### Install from Github via Setup.py
-If you prefer to employ a Python interpreter with a version `higher than 3.7.11`, please follow the instructions below.
+### Install from Github via Setup Script
+If you prefer to employ a Python interpreter with a version `higher than 3.7.11` or simply want to install YouML manually, then you could follow the instructions below.
 
 Downloading the entire repository and uncompressing it as a folder `YouML-main`. YouML runs on top of nearly 50 dependencies which can be installed by two package managers:
 1.	Conda (recommended)
