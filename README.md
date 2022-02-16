@@ -88,7 +88,7 @@ Profile: [https://www.linkedin.com/in/chongya-song/](https://www.linkedin.com/in
 YouML complies with the traditional installation routine as common Python packages (i.e., `pip3 install YouML` and `python setup.py install`), so experienced users may skip this section and directly install YouML in your preferred manners.
 
 ### For Windows Users
-YouML runs on top of built-in `Windows Subsystem for Linux (WSL)` that hosted on Windows 10 and 11, so the following commands should be executed within the former instead of the latter. Newcomers could install the WSL by referring the instructions below.<br />
+YouML runs on top of built-in `Windows Subsystem for Linux (WSL)` that hosted on Windows 10 and 11, so the following commands should be executed within the former instead of the latter. Newcomers could install the WSL by referring the instructions below:<br />
 https://docs.microsoft.com/en-us/windows/wsl/install
 
 ### Install from PyPi via Pip3
