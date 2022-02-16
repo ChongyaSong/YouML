@@ -100,7 +100,7 @@ Reminder: To achieve a stable performance, YouML retrieved from PyPi (i.e., Pyth
 ### Install from Github via Setup Script
 If you prefer to employ a Python interpreter with a version `higher than 3.7.11` or simply want to install YouML manually, then you could follow the instructions below.
 
-Downloading the entire repository (https://github.com/ChongyaSong/YouML) and uncompressing it as a folder `YouML-main`. YouML runs on top of dozens dependencies which can be installed by two package managers:
+Downloading the entire YouML repository on Github (i.e., https://github.com/ChongyaSong/YouML) and uncompressing it as a folder `YouML-main`. YouML runs on top of dozens dependencies which can be installed by two package managers:
 1.	Conda (recommended)
 2.	Pip3
 
