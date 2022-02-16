@@ -1,8 +1,8 @@
 
 ![PyPi](https://img.shields.io/badge/PyPi-v0.6.0_beta-yellow)
 ![format](https://img.shields.io/badge/Format-Wheel-yellow)
-![Vistors](https://img.shields.io/badge/Vistors_/_2_weeks-358-yellow)
-![Clone](https://img.shields.io/badge/Clone_/_2_weeks-33-yellow)
+![Vistors](https://img.shields.io/badge/Vistors_/_2_weeks-34-yellow)
+![Clone](https://img.shields.io/badge/Clone_/_2_weeks-39-yellow)
 ![Stars](https://img.shields.io/badge/Stars-16-yellow)<br />
 ![OS](https://img.shields.io/badge/OS-Windows_Subsystem_for_Linux_(WSL)-red)
 ![OS](https://img.shields.io/badge/OS-Linux-red)
