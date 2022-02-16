@@ -92,8 +92,8 @@ YouML runs on top of built-in `Windows Subsystem for Linux (WSL)` that hosted on
 https://docs.microsoft.com/en-us/windows/wsl/install
 
 ### Install from PyPi via Pip3
-To install YouML, the easiest approach is to execute the following command in your command prompt/terminal:<br />
-`pip3 install YouML` (case-insensitive)
+To install YouML, the easiest approach is to execute the following command (case-insensitive) in your command prompt/terminal:<br />
+`pip3 install YouML`
 
 Reminder: To achieve a stable performance, YouML retrieved from PyPi (i.e., Python official package repository: https://pypi.org/project/YouML/) is pinned to `Python 3.7.11` which is the version for development and self-testing. Furthermore, dependencies (nearly 50) that YouML relies on may mess the current Python environment and result in conflicts with the existing packages. Accordingly, it is highly recommended to create a dedicated virtual environment (e.g., conda, pyenv) with a Python version of 3.7.11 for YouML. 
 
