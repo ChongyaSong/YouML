@@ -46,13 +46,13 @@ The cross-platform application resides in this repository is named `YouML` which
 | Data Splitting | 4 | unlimited SQL queries |
 | Machine Learning | 50 | 23 for classification <br /> 27 for regression |
 
-The names of aforementioned `3` Feature Selection algorithms in Scikit-learn are:<br />
+The names of aforementioned `3 Feature Selection` algorithms in Scikit-learn are:<br />
 RFE, SelectFromModel, SelectKBest
 
-The names of aforementioned `23` Classification algorithms in Scikit-learn are:<br />
+The names of aforementioned `23 Classification` algorithms in Scikit-learn are:<br />
 DecisionTreeClassifier, ExtraTreeClassifier, RandomForestClassifier, GradientBoostingClassifier, HistGradientBoostingClassifier, GaussianProcessClassifier, LogisticRegression, PassiveAggressiveClassifier, Perceptron, RidgeClassifier, SGDClassifier, BernoulliNB, CategoricalNB, ComplementNB, GaussianNB, MultinomialNB, KNeighborsClassifier, RadiusNeighborsClassifier, MLPClassifier, LinearSVC, NuSVC, SVC, DummyClassifier
 
-The names of aforementioned `27` Regression algorithms in Scikit-learn are:<br />
+The names of aforementioned `27 Regression` algorithms in Scikit-learn are:<br />
 DecisionTreeRegressor, ExtraTreeRegressor, RandomForestRegressor, GradientBoostingRegressor, HistGradientBoostingRegressor, GaussianProcessRegressor, LinearRegression, Ridge, SGDRegressor, ElasticNet, Lars, Lasso, LassoLars, LassoLarsIC, OrthogonalMatchingPursuit, ARDRegression, BayesianRidge, HuberRegressor, TheilSenRegressor, PassiveAggressiveRegressor, KNeighborsRegressor, RadiusNeighborsRegressor, LinearSVR, NuSVR, SVR, MLPRegressor, DummyRegressor
 
 ## PERFORMANCE
