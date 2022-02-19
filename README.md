@@ -46,10 +46,10 @@ The cross-platform application resides in this repository is named `YouML` which
 | Data Splitting | 4 | unlimited SQL queries |
 | Machine Learning | 50 | 23 for classification <br /> 27 for regression |
 
-According to targets, the names of aforementioned `35 Data Preprocessing` algorithms are listed below (the ones with asterisk are imported from Scikit-learn).<br />
-For processing `Features (23)`: Binarizer*, KBinsDiscretizer*, LabelEncoder*, OrdinalEncoder*, MaxAbsScaler*, MinMaxScaler*, StandardScaler*, RobustScaler*, Normalizer*, PolynomialFeatures*, QuantileTransformer*, PowerTransformer*, FeatureRenaming, FeatureRemoving, FeatureAddition, Numeric -> Nominal, Nominal -> Numeric, ValueSorting, ValueReplacement, ValueMerging (specified), ValueMerging (infrequent), Missing -> MostFrequent, Missing -> Percentile, OutlierCleaning<br />
-For processing `Samples (6)`: Resampling, Randomization, SampleRemoving (range), SampleRemoving (values), SampleRemoving (duplicates), SampleRemoving (infrequent)<br />
-For processing `Dimension (6)`: OneHotEncoder*, IncrementalPCA*, KernelPCA*, PCA*, FactorAnalysis*, GaussianRandomProjection*<br />
+According to targets, the names of aforementioned `35 Data Preprocessing` algorithms are classified into 3 groups (the ones with asterisk are imported from Scikit-learn).<br />
+`Features (23)`: Binarizer*, KBinsDiscretizer*, LabelEncoder*, OrdinalEncoder*, MaxAbsScaler*, MinMaxScaler*, StandardScaler*, RobustScaler*, Normalizer*, PolynomialFeatures*, QuantileTransformer*, PowerTransformer*, FeatureRenaming, FeatureRemoving, FeatureAddition, Numeric -> Nominal, Nominal -> Numeric, ValueSorting, ValueReplacement, ValueMerging (specified), ValueMerging (infrequent), Missing -> MostFrequent, Missing -> Percentile, OutlierCleaning<br />
+`Samples (6)`: Resampling, Randomization, SampleRemoving (range), SampleRemoving (values), SampleRemoving (duplicates), SampleRemoving (infrequent)<br />
+`Dimension (6)`: OneHotEncoder*, IncrementalPCA*, KernelPCA*, PCA*, FactorAnalysis*, GaussianRandomProjection*<br />
 
 The names of aforementioned `3 Feature Selection` algorithms in Scikit-learn are:<br />
 RFE, SelectFromModel, SelectKBest
