@@ -257,7 +257,7 @@ YouTube
 bilibili
 [![Tutorial](https://github.com/ChongyaSong/YouML-backend/blob/main/Video%202%20(B).png)](https://www.bilibili.com/video/BV1Dr4y1U7L9?spm_id_from=333.999.0.0)
 
-Installation
+Installation (from GitHub via Setup.py)
 
 YouTube
 [![Installation](https://github.com/ChongyaSong/YouML-backend/blob/main/Installation%20(YouTube).png)](https://www.youtube.com/watch?v=BsXNG3c3LWM)
@@ -265,6 +265,13 @@ YouTube
 bilibili
 [![Installation](https://github.com/ChongyaSong/YouML-backend/blob/main/Installation%20(B).png)](https://www.bilibili.com/video/BV1DY41187hb?spm_id_from=333.999.0.0)
 
+Installation (from PyPI via Pip3)
+
+YouTube
+[![Installation](https://github.com/ChongyaSong/YouML-backend/blob/main/Pip%20install%20YouML.png)](https://www.youtube.com/watch?v=foDSlhgpmeQ)
+
+bilibili
+[![Installation](https://github.com/ChongyaSong/YouML-backend/blob/main/Pip%20install%20YouML%20(B).png)](https://www.bilibili.com/video/BV1Ra411k7pZ?spm_id_from=333.999.0.0)
 
 Linux and Windows Versions
 
@@ -273,4 +280,3 @@ YouTube
 
 bilibili
 [![Linux and Windows Versions](https://github.com/ChongyaSong/YouML-backend/blob/main/Linux%20and%20Windows%20Version%20(B).png)](https://www.bilibili.com/video/BV1Nb4y1771n?spm_id_from=333.999.0.0)
-
