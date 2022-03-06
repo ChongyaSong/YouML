@@ -3,7 +3,7 @@
 ![format](https://img.shields.io/badge/Format-Binary-yellow)
 ![Vistors](https://img.shields.io/badge/Vistors_/_recent_2_weeks-476-yellow)
 ![Clone](https://img.shields.io/badge/Clone_/_recent_2_weeks-48-yellow)
-![Stars](https://img.shields.io/badge/Stars-16-yellow)<br />
+![Stars](https://img.shields.io/badge/Stars-17-yellow)<br />
 ![OS](https://img.shields.io/badge/OS-Windows_Subsystem_for_Linux_(WSL)-red)
 ![OS](https://img.shields.io/badge/OS-Linux-red)
 ![OS](https://img.shields.io/badge/OS-MacOS-red)<br />
